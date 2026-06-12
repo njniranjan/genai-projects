@@ -1,6 +1,6 @@
 # Project 2: Sentiment Analysis + Text Summarizer
 
-<image-card alt="Project 2 Screenshot" src="screenshot1.png" ></image-card>
+![Project 2 Screenshot](screenshot1.png)
 
 **Built as part of my GenAI from Scratch Journey**
 
