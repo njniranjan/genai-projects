@@ -5,28 +5,33 @@
 **Built as part of my GenAI from Scratch Journey**
 
 ## Overview
-Built a web tool that performs **Sentiment Analysis** and **Text Summarization** on any given text using free Hugging Face models.
+I built a practical web application that analyzes the **sentiment** (Positive/Negative) of any text and generates a **concise summary**. This tool is useful for quickly reviewing reports, customer feedback, news articles, or project notes.
 
 ## Tech Stack
-- Hugging Face `transformers`
-- Gradio (web interface)
-- Google Colab (T4 GPU)
-- Models: `distilbert-base-uncased-finetuned-sst-2-english` (sentiment) + `sshleifer/distilbart-cnn-12-6` (summarization)
+- **Hugging Face Transformers**
+- **Gradio** (for interactive web UI)
+- Google Colab (Free T4 GPU)
+- Models: `distilbert` (sentiment) + `distilbart-cnn` (summarization)
 
-## What I Built
-- Combined tool for analyzing text (useful for reports, reviews, customer feedback)
-- Clean Gradio interface with examples
-- Proper error handling
+## Key Features
+- Real-time sentiment analysis with confidence score
+- Automatic text summarization
+- Clean and user-friendly interface
+- Example prompts based on my previous ML projects (energy investment & package delivery)
 
 ## Key Learnings
-- Working with different NLP pipelines
-- Loading and using multiple models in one app
-- Text preprocessing and output formatting
-- Building practical GenAI tools
+- Working with multiple NLP pipelines simultaneously
+- Handling model loading and errors in Colab
+- Building useful end-to-end GenAI applications
+- Importance of choosing the right model size for free environments
 
 ## Limitations
-- Summarization works best with medium-length text
-- Running on free Colab GPU has some speed limits
+- Works best with medium-length text
+- Summarization quality depends on the input text length
 
 ## How to Run
-Open the notebook in Colab → Runtime → T4 GPU → Run all cells → Click public URL
+1. Open the notebook in Google Colab
+2. Change runtime to **T4 GPU**
+3. Run all cells
+4. Click the public URL to use the tool
+
