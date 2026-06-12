@@ -1,8 +1,8 @@
 # Project 1: My First GenAI Chatbot
 
-**Built as part of my GenAI from Scratch Journey**
+![My First GenAI Chatbot](screenshot.png)
 
-![Chatbot Screenshot](screenshot.png)  <!-- Add a screenshot later if you want -->
+**Built as part of my GenAI from Scratch Journey**
 
 ## Overview
 I built an interactive web-based chatbot using **Hugging Face Transformers** and **Gradio** in Google Colab. This was my first hands-on project with Generative AI.
@@ -38,4 +38,3 @@ I built an interactive web-based chatbot using **Hugging Face Transformers** and
 3. Run all cells
 4. Click the public URL to open the chatbot
 
-## njniranjan ##
