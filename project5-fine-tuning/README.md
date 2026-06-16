@@ -1,6 +1,6 @@
 # Project 5: Fine-Tuning a Small LLM for Technical Explanations (QLoRA)
 
-![Fine-tuned Model Demo](screenshot.png)
+![Fine-tuned Model Demo](screenshot5.png)
 
 **Built as part of my GenAI from Scratch Journey**
 
