@@ -1,0 +1,47 @@
+# Project 3: RAG Evaluation Dashboard
+
+## Overview
+A basic evaluation dashboard for a RAG system. It allows users to test how well the RAG system retrieves relevant context by comparing it with ground truth answers.
+
+## Features
+- Loads and processes PDF documents
+- Retrieves relevant chunks from the document
+- Compares retrieved context with user-provided ground truth
+- Simple scoring system
+- Interactive Gradio UI
+
+## Tech Stack
+- LangChain
+- ChromaDB
+- Hugging Face embeddings
+- Gradio (interactive UI)
+- Python + Jupyter
+
+## How It Works
+1. User enters a question
+2. User provides a ground truth answer
+3. System retrieves relevant context
+4. Simple match score is calculated
+5. Evaluation result is displayed
+
+## Example
+**Question:** How does the book explain habit formation?  
+**Ground Truth:** Make it obvious, attractive, easy, satisfying  
+**Result:** Good match score
+
+## Key Learnings
+- Importance of evaluating RAG systems
+- How to use ground truth for testing
+- Building interactive evaluation dashboards
+
+## Future Improvements
+- Add full RAGAS evaluation metrics
+- Automatic answer generation and comparison
+- Support for multiple test cases
+
+## Author
+Niranjan  
+MSc Business Analytics  
+Building practical GenAI tools
+
+**Date**: July 2026
