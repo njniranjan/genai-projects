@@ -1,38 +1,27 @@
-# GenAI Projects
+# GenAI Projects Portfolio
 
-Hi, I'm Niranjan. I'm transitioning from Data Analytics into GenAI. This repository contains my hands-on projects as I build practical skills in prompt engineering, RAG systems, agents, and AI-powered business tools.
+Hi, I'm Niranjan.
 
-## About Me
-- MSc in Business Analytics and Big Data
-- Background in data analysis and business intelligence
-- Currently building projects to develop strong GenAI capabilities with a focus on real business value
+MSc Business Analytics graduate transitioning into Generative AI. This repo contains my hands-on projects focusing on practical business applications.
 
-## Current Projects
+## Projects
 
-| #  | Project                              | Description                                      | Status     | Link |
-|----|--------------------------------------|--------------------------------------------------|------------|------|
-| 01 | Business Insight Extractor           | Multi-step prompt engineering to extract structured insights from business text | Completed  | [View Project](./projects/01-business-insight-extractor) |
-| 02 | Document Q&A with RAG                | RAG system to chat with PDFs and documents       | In Progress| - |
-| 03 | RAG Evaluation Dashboard             | Evaluate RAG performance using RAGAS             | Planned    | - |
-| 04 | Business Data Chat Agent             | Natural language querying over structured data   | Planned    | - |
-| 05 | Multi-Agent Workflow                 | Automated research and reporting agent           | Planned    | - |
-
-## Goals
-- Build a strong portfolio of practical GenAI applications
-- Focus on projects that solve real business problems
-- Learn prompt engineering, RAG, agents, evaluation, and deployment
+| # | Project | Description | Status |
+|---|---------|-------------|--------|
+| 01 | Business Insight Extractor | Structured insights from text using prompt engineering + Gradio | Completed |
+| 02 | Document Q&A with RAG | Chat with PDFs using LangChain + Chroma | Completed |
+| 03 | RAG Evaluation Dashboard | Basic evaluation of RAG system | Completed |
+| 04+ | Upcoming (Agents, etc.) | In progress | Planned |
 
 ## Tech Stack
-- Python + Jupyter Notebooks
-- Prompt Engineering
-- LangChain / LlamaIndex
-- Hugging Face (models & Spaces)
-- RAGAS (for evaluation)
+- LangChain, ChromaDB, Hugging Face
+- Gradio for interactive demos
+- Prompt Engineering & RAG
 
-## Contact
-- GitHub: [njniranjan](https://github.com/njniranjan)
-- LinkedIn: [Add your LinkedIn link here]
+## Goals
+- Build a strong portfolio showcasing business-value GenAI tools
+- Document and share my learning journey
 
----
+GitHub: https://github.com/njniranjan/genai-projects
 
-*This repository is a work in progress as I continue learning and building.*
+Last updated: July 2026
