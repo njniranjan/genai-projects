@@ -1,0 +1,46 @@
+# Project 4: Business Data Chat Agent
+
+## Overview
+An intelligent agent that allows users to ask natural language questions about structured business data (sales data in this case) and get accurate answers by converting questions into pandas code.
+
+## Features
+- Natural language to pandas code conversion
+- Accurate data analysis and insights
+- Interactive Gradio interface
+- Powered by Groq LLM + Pandas Agent
+- Handles complex queries (grouping, filtering, aggregations)
+
+## Tech Stack
+- Pandas
+- LangChain Experimental (Pandas Agent)
+- Groq (LLM)
+- Gradio (UI)
+
+## How It Works
+1. User asks a question in natural language
+2. The agent generates and executes pandas code
+3. Returns accurate results with reasoning
+
+## Example Questions & Answers
+- "What is the total sales?" → $510,000
+- "Which region has the highest sales?" → West ($125,000)
+- "What is the best performing product?" → Monitor
+
+## Key Learnings
+- How to build LLM-powered data analysis agents
+- Converting natural language to executable code
+- Building interactive data tools with Gradio
+- Working with structured business data
+
+## Future Improvements
+- Support for uploading custom CSV files
+- Add visualization (charts)
+- Support for SQL databases
+- Multi-turn conversation memory
+
+## Author
+Niranjan  
+MSc Business Analytics  
+Building practical GenAI tools
+
+**Date**: July 2026
