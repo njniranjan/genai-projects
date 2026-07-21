@@ -1,0 +1,57 @@
+# Project 5: Multi-Agent Business Research System
+
+## Overview
+A multi-agent system that researches business topics and produces structured reports with critical feedback.
+
+The system uses three specialized agents working in sequence:
+1. **Researcher** – Gathers key facts, market data, and competitive insights
+2. **Synthesizer** – Converts findings into a structured business report
+3. **Critic** – Reviews the report and provides constructive feedback
+
+## Features
+- Multi-agent orchestration using LangGraph
+- Specialized prompts for each agent role
+- Structured business report generation
+- Built-in critic feedback loop
+- Interactive Gradio interface
+
+## How It Works
+1. User provides a research topic
+2. Researcher agent collects relevant findings
+3. Synthesizer agent writes a professional report
+4. Critic agent reviews the report and suggests improvements
+5. Final output includes both the report and critic feedback
+
+## Example Topics Tested
+- Apple’s competitive position in the smartphone market in 2026
+- Impact of AI on the consulting industry
+- Tesla’s competitive advantages in the EV market
+
+## Tech Stack
+- LangGraph (agent orchestration)
+- LangChain + Groq (LLM)
+- Gradio (interactive interface)
+
+## Key Learnings
+- How to design specialized agent roles
+- Building sequential multi-agent workflows
+- Adding a critic/review layer to improve output quality
+- Creating interactive demos for multi-agent systems
+
+## Limitations
+- Agents currently rely on the LLM’s knowledge (no external tools yet)
+- No automated evaluation of report quality
+- Simple linear flow (no branching or parallel agents)
+
+## Future Improvements
+- Add external tools (web search / data retrieval)
+- Introduce parallel agents for different research angles
+- Add human-in-the-loop review
+- Implement evaluation metrics for report quality
+
+## Author
+Niranjan  
+MSc Business Analytics  
+Building practical GenAI systems
+
+**Date:** July 2026
